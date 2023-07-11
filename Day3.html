@@ -1,0 +1,152 @@
+<!-- FSD DAY-3 : HTML (3/3) -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Day-3</title>
+    </head>
+    <body>
+        <header>
+            <p><big><b>DAY-3 HTML(3/3)</b></big></p>
+            <hr>
+        </header>
+
+        <main>
+            <!-- HTML Tables -->
+            <h3><u>HTML Tables : </u></h3>
+            <p>Terms involved :- (table - caption - tr - th - td - rowspan - colspan - thead - tbody - tfoot)</p>
+            <table border = "black" style="background-color:rgb(246, 228, 206)">
+            <caption style="background-color:#5cac60">CSE-1</caption>
+            <!-- Table Header -->
+                <thead>
+                    <tr>
+                        <th rowspan = "2">Name</th>
+                        <th colspan = "3">GPA</th>
+                    </tr>
+
+                    <tr>
+                        <th>SEM-1</th>
+                        <th>SEM-2</th>
+                        <th>SEM-3</th>
+                    </tr>
+                </thead>
+                <!-- Table body -->
+                <tbody>
+                    <tr>
+                        <td>Ajay</td>
+                        <td>8.7</td>
+                        <td>8.6</td>
+                        <td>8.3</td>
+                    </tr>
+
+                    <tr>
+                        <td>Akash</td>
+                        <td>9.7</td>
+                        <td>9.1</td>
+                        <td>8.5</td>
+                    </tr>
+
+                    <tr>
+                        <td>Abhinav</td>
+                        <td>8.6</td>
+                        <td>8.4</td>
+                        <td>8.3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br><hr><br>
+
+            <!-- HTML Forms -->
+            <h3><u>HTML Forms :</u></h3>
+            <p>Terms involved :- (action - input - type - placeholder - label - button - name - select)</p>
+            
+            <!-- Creating a student registration form -->
+            <h4 style="background-color:rgb(138, 208, 100)">Student registration form :</h4>
+            <form action = "/action" style = "background-color: rgb(189, 234, 243);">
+                <label>
+                    Name :
+                    <input type = "text" id = "fullname" placeholder = "Enter your full name">
+                </label>
+
+                <br><br>
+
+                <label>
+                    Roll no :
+                    <input type = "text" id = "rollno" placeholder = "Enter your roll number">
+                </label>
+
+                <label>
+                    &nbsp;&nbsp;&nbsp;Enter your password :
+                    <input type = "password" placeholder = "Enter password">
+                </label>
+
+                <br><br>
+
+                <label>
+                    Date of birth :
+                    <input type = "date">
+                </label>
+
+                <br><br>
+
+                <label>
+                    Clubs joined in:
+                    <label>
+                        <input type = "checkbox"> RAC
+                    </label>
+                    <label>
+                        <input type = "checkbox"> CSI
+                    </label>
+                    <label>
+                        <input type = "checkbox"> IEEE
+                    </label>
+                </label>
+
+                <br><br>
+
+                <label>
+                    Branch :
+                    <select>
+                        <option>Select Branch</option>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>MECH</option>
+                    </select>
+                </label>
+
+                <label>
+                    &nbsp;&nbsp;&nbsp; Section :
+                    <input type = "radio" id = "sec">
+                    <label for = "sec">1</label>
+                    <input type = "radio" id = "sec">
+                    <label>2</label>
+                    <input type = "radio" id = "sec">
+                    <label>3</label>
+                </label>
+
+                <br><br>
+
+                <label>
+                    Rate the profiency of faculty : 
+                    <input type = "range" min = "0" max = "10" step = "1">
+                </label>
+
+                <br><br>
+
+                <label>
+                    Kindly provide some feedback :
+                    <input type = "textarea" placeholder="">
+                </label>
+
+                <br><br>
+
+                <button>Submit</button>
+                &nbsp;&nbsp;&nbsp;
+                <button type = "reset">Reset</button>
+            </form>
+        </main>
+    </body>
+</html>
