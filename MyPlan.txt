@@ -1,0 +1,29 @@
+Schedule of learning :
+
+Front-end : (45 Days + *5)
+
+1. HTML --> 3 Days
+2. CSS --> 5 Days
+3. Tailwind CSS --> 2 Days
+4. Mini_Project_1 --> 1 Day
+--------------------------------
+5. Javascript --> 7 Days
+6. Mini_Project_2 --> 2 Days
+7. ReactJS --> 18 Days
+8. Project_1 --> 7 Days
+   *Buffer - 5 Days
+
+--------------------------------
+--------------------------------
+
+Back-end : (42 Days + *5)
+
+9.  Backend + Networking + Python basics --> 3 Days
+10. Django --> 15 Days
+11. Mini_Project_3 --> 2 Days
+--------------------------------
+12. SQL --> 3 Days
+13. MongoDB + Mongoose --> 7 Days
+14. Extras(API's + Version Control + ...) --> 5 Days
+15. Project_2 --> 7 Days
+    *Buffer - 5 days
